@@ -96,14 +96,14 @@ class _PantallaIMCState extends State<PantallaIMCStateful> {
             imc: _imc, esNormal: true, resultado: "Está en buena forma");
       } else if (_imc < 18.5) {
         _IMCModelo = IMCModelo(
-            imc: _imc, esNormal: false, resultado: "Tiene Sobrepeso");
+            imc: _imc, esNormal: false, resultado: "Esta bajo de peso");
       } else if (_imc > 25 && _imc <= 30) {
         _IMCModelo = IMCModelo(
-            imc: _imc, esNormal: false, resultado: "Esta bajo de peso");
+            imc: _imc, esNormal: false, resultado: "Tiene Sobrepeso");
       } else {
         _IMCModelo = IMCModelo(imc: _imc,
             esNormal: false,
-            resultado: "Tiene algún tipo de obesidad");
+            resultado: "Tiene algún tipo de problema de peso");
       }
     });
 
