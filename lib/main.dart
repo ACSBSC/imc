@@ -1,3 +1,9 @@
+/*
+* Autores:
+* Anne Schreiber A01650066
+* Santiago Gutierrez A01652520
+* */
+
 import 'package:flutter/material.dart';
 import 'PantallaIMC.dart';
 
